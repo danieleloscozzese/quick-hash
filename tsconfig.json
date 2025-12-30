@@ -4,7 +4,7 @@
 		"moduleResolution": "nodenext",
 		"strict": true,
 		"skipDefaultLibCheck": true,
-		"rootDir": "./src",
+		"rootDir": ".",
 		"allowImportingTsExtensions": true,
 		"noEmit": true,
 		"verbatimModuleSyntax": true,

@@ -1,6 +1,6 @@
 {
 	"name": "@dagher/quick-hash",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Hash an input string with SHA-512",
 	"keywords": [
 		"sha"
@@ -16,12 +16,12 @@
 	"license": "EUPL-1.2",
 	"author": "Daniel Arthur Gallagher <npm@danielarthurgallagher.dev>",
 	"type": "module",
-	"main": "main.mts",
+	"bin": "main.mts",
 	"engines": {
-		"node": ">=22"
+		"node": ">=22.18.0"
 	},
 	"scripts": {
-		"test": ":"
+		"test": "tsc"
 	},
 	"devDependencies": {
 		"@types/node": "^22",
