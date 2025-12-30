@@ -3,6 +3,8 @@
 // SPDX-License-Identifier: EUPL-1.2
 // Copyright © 2025 Daniel Arthur Gallagher
 
+// @ts-check
+
 import { Buffer } from "node:buffer";
 import { hash } from "node:crypto";
 
