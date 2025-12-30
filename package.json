@@ -1,6 +1,6 @@
 {
 	"name": "@dagher/quick-hash",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Hash an input string with SHA-512",
 	"keywords": [
 		"sha"
