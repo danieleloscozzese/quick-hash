@@ -11,8 +11,6 @@ if (!input) {
 	process.exitCode = 1;
 }
 
-const hashed = await hash("sha512", Buffer.from(input), {
-	outputEncoding: "hex",
-});
+const hashed = hash("sha512", Buffer.from(input));
 
 console.log(hashed);
