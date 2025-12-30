@@ -8,7 +8,7 @@ const input = process.argv[2];
 
 if (!input) {
 	console.error("Please provide an input string to hash.");
-	process.exitCode = 1;
+	process.exit(1);
 }
 
 const hashed = hash("sha512", Buffer.from(input));
