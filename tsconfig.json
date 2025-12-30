@@ -4,12 +4,9 @@
 		"moduleResolution": "nodenext",
 		"strict": true,
 		"skipDefaultLibCheck": true,
-		"skipLibCheck": true,
 		"rootDir": "./src",
-		"noImplicitAny": false,
 		"allowImportingTsExtensions": true,
 		"noEmit": true,
-		"allowSyntheticDefaultImports": false,
 		"verbatimModuleSyntax": true,
 		"module": "nodenext"
 	}
