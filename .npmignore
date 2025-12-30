@@ -1,5 +1,7 @@
 .github
+.devcontainer
 
+tsconfig.json
 .prettierrc.json
 .prettierignore
 *.spec.*

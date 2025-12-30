@@ -1,0 +1,31 @@
+{
+	"name": "@dagher/quick-hash",
+	"version": "1.0.0",
+	"description": "Hash an input string with SHA-512",
+	"keywords": [
+		"sha"
+	],
+	"homepage": "https://github.com/danieleloscozzese/quick-hash#readme",
+	"bugs": {
+		"url": "https://github.com/danieleloscozzese/quick-hash/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/danieleloscozzese/quick-hash.git"
+	},
+	"license": "EUPL-1.2",
+	"author": "Daniel Arthur Gallagher <npm@danielarthurgallagher.dev>",
+	"type": "module",
+	"main": "main.mts",
+	"engines": {
+		"node": ">=22"
+	},
+	"scripts": {
+		"test": ":"
+	},
+	"devDependencies": {
+		"@types/node": "^22",
+		"prettier": "3.7.4",
+		"typescript": "^5.9.3"
+	}
+}
