@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 // SPDX-License-Identifier: EUPL-1.2
 // Copyright © 2025 Daniel Arthur Gallagher
 

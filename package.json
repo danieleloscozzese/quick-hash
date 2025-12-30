@@ -16,7 +16,7 @@
 	"license": "EUPL-1.2",
 	"author": "Daniel Arthur Gallagher <npm@danielarthurgallagher.dev>",
 	"type": "module",
-	"main": "main.mts",
+	"bin": "main.mts",
 	"engines": {
 		"node": ">=22"
 	},
