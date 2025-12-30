@@ -2,7 +2,7 @@ name: "Test"
 
 on:
   pull_request:
-    types: [opened, synchronize, reopened]
+    types: ["opened", "synchronize", "reopened"]
 
 # Only allow one workflow run at a time per PR
 concurrency:
@@ -15,9 +15,10 @@ jobs:
     env:
       TZ: "Europe/Rome"
     steps:
-      - uses: actions/checkout@v5
+      - uses: "actions/checkout@v5"
+        name: "Check out"
 
-      - uses: actions/setup-node@v6
+      - uses: "actions/setup-node@v6"
         name: "Set up Node.js"
         with:
           node-version: 22
